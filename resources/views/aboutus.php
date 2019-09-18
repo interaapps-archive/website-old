@@ -6,8 +6,12 @@
     </div>
 </div>
 <br><br><br>
-Jaja, hier kommt noch content hinne
-
+<div class="lightsection withBackgroundImage0x2">
+    <h1>Who we are</h1>
+    <p>We are a little team in germany that is developing just for fun!
+    </p>
+</div>
+<div class="lightsection withBackgroundImage0x2"></div>
 
 <style>
 

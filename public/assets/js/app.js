@@ -282,7 +282,9 @@ var $n = function(element="div"){
 var $$ = function (element) {
     return document.querySelectorAll(element);
 }
-class CajaxRequest {
+if ( typeof module === "object" && typeof module.exports === "object" ) {
+    module.exports = $;
+}class CajaxRequest {
     constructor(url,method, data=null, options={},usinginput=false) {
         // INIT        
         this.onResponseFunction = ()=>{};

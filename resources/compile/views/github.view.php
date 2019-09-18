@@ -124,5 +124,17 @@ $readme = (new \modules\parsedown\Parsedown)->text( base64_decode(json_decode(fi
 
 </style>
 
+<script>
+
+    $("#readme [href]").each(function(element) {
+        $(element).attr("href", "{{$github}}"+$(element).attr("href"));
+    });
+
+    $("#readme [src]").each(function(element) {
+        $(element).attr("src", "{{"https://raw.githubusercontent.com/".$link."/master/"}}"+$(element).attr("src"));
+    });
+
+</script>
+
 </app>
 @template(("footer"))!

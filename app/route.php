@@ -32,3 +32,45 @@ $router->get("/projects/jdom", function() {
     "github"=>"https://github.com/interaapps/jdom"
   ]);
 });
+
+$router->get("/projects/cajax", function() {
+  return view("github", [
+    "pagetitle"=>"Cajax",
+    "github"=>"https://github.com/interaapps/cajax"
+  ]);
+});
+
+$router->get("/projects/uloleframework", function() {
+  return view("github", [
+    "pagetitle"=>"Ulole Framework",
+    "github"=>"https://github.com/interaapps/ulole-framework"
+  ]);
+});
+
+$router->get("/projects/pastefy", function() {
+  return view("github", [
+    "pagetitle"=>"Pastefy",
+    "github"=>"https://github.com/interaapps/pastefy"
+  ]);
+});
+
+$router->get("/projects/uppm", function() {
+  return view("github", [
+    "pagetitle"=>"Pastefy",
+    "github"=>"https://github.com/interaapps/uppm"
+  ]);
+});
+
+$router->get("/projects/pastefy", function() {
+  return view("github", [
+    "pagetitle"=>"Pastefy",
+    "github"=>"https://github.com/interaapps/pastefy"
+  ]);
+});
+
+$router->get("/projects/website", function() {
+  return view("github", [
+    "pagetitle"=>"Pastefy",
+    "github"=>"https://github.com/interaapps/website"
+  ]);
+});

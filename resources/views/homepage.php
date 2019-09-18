@@ -54,84 +54,14 @@
 </div>
 
 <div class="darksection">
-    <h1>Open Source</h1>
-    <p>We love and support open source.<br>
-    The idea of sharing code to everyone, getting feedback, help others and be transparent is fantastic!<br>
-    So we do mostly support open source and we are contributing to it!<br>
-    <a class="link_black" href="https://github.com/interaapps">Github</a>
+    <h1>Who we are</h1>
+    <p>We are a little team in germany that is developing just for fun!
     </p>
 </div>
 
-<div class="lightsection">
-    <h1>Open Source</h1>
-    <p>We love and support open source.<br>
-    The idea of sharing code to everyone, getting feedback, help others and be transparent is fantastic!<br>
-    So we do mostly support open source and we are contributing to it!<br>
-    <a class="link_black" href="https://github.com/interaapps">Github</a>
-    </p>
-</div>
-
-<div class="darksection">
-    <h1>Open Source</h1>
-    <p>We love and support open source.<br>
-    The idea of sharing code to everyone, getting feedback, help others and be transparent is fantastic!<br>
-    So we do mostly support open source and we are contributing to it!<br>
-    <a class="link_black" href="https://github.com/interaapps">Github</a>
-    </p>
-</div>
-
-<div class="lightsection">
-    <h1>Open Source</h1>
-    <p>We love and support open source.<br>
-    The idea of sharing code to everyone, getting feedback, help others and be transparent is fantastic!<br>
-    So we do mostly support open source and we are contributing to it!<br>
-    <a class="link_black" href="https://github.com/interaapps">Github</a>
-    </p>
-</div>
-
-<div class="darksection">
-    <h1>Open Source</h1>
-    <p>We love and support open source.<br>
-    The idea of sharing code to everyone, getting feedback, help others and be transparent is fantastic!<br>
-    So we do mostly support open source and we are contributing to it!<br>
-    <a class="link_black" href="https://github.com/interaapps">Github</a>
-    </p>
-</div>
-
-<div class="lightsection">
-    <h1>Open Sourcae</h1>
-    <p>We love and support open source.<br>
-    The idea of sharing code to everyone, getting feedback, help others and be transparent is fantastic!<br>
-    So we do mostly support open source and we are contributing to it!<br>
-    <a class="link_black" href="https://github.com/interaapps">Github</a>
-    </p>
-</div>
-
-<div class="darksection">
-    <h1>Open Source</h1>
-    <p>We love and support open source.<br>
-    The idea of sharing code to everyone, getting feedback, help others and be transparent is fantastic!<br>
-    So we do mostly support open source and we are contributing to it!<br>
-    <a class="link_black" href="https://github.com/interaapps">Github</a>
-    </p>
-</div>
-
-<div class="lightsection">
-    <h1>Open Source</h1>
-    <p>We love and support open source.<br>
-    The idea of sharing code to everyone, getting feedback, help others and be transparent is fantastic!<br>
-    So we do mostly support open source and we are contributing to it!<br>
-    <a class="link_black" href="https://github.com/interaapps">Github</a>
-    </p>
-</div>
-
-<div class="darksection">
-    <h1>Open Source</h1>
-    <p>We love and support open source.<br>
-    The idea of sharing code to everyone, getting feedback, help others and be transparent is fantastic!<br>
-    So we do mostly support open source and we are contributing to it!<br>
-    <a class="link_black" href="https://github.com/interaapps">Github</a>
-    </p>
+<div class="lightsection withBackgroundImage0x2">
+    <h1>Done!</h1>
+    More is coming soon!
 </div>
 
 <script>
