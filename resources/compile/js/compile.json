@@ -1,0 +1,7 @@
+{
+    "assets/js/app.js": [
+        "jdom.js",
+        "cajax.js",
+        "app.js"
+    ]
+}
