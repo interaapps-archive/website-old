@@ -103,7 +103,8 @@ h2, h3, h4, h5 {
     display: none;
     height: 0%;
     width: 100%;
-    background-color: #141414;
+    top: 0px;
+    background-color: #00112c;
     position: fixed;
     transition: 0.3s;
     background-image: url("/assets/images/nav.svg");

@@ -8,21 +8,21 @@ function closeNav() {
     }, 300);
 
 
-setTimeout(()=>{
-    $("#menu").css({
-        height: "0%"
-    });
     setTimeout(()=>{
         $("#menu").css({
-            display: "none"
+            height: "0%"
         });
+        setTimeout(()=>{
+            $("#menu").css({
+                display: "none"
+            });
+        }, 300);
     }, 300);
-}, 300);
 
-$("#menubtn").css({
-    transform: "rotate(0deg)"
-});
-$("#menubtn").text("menu");
+    $("#menubtn").css({
+        transform: "rotate(0deg)"
+    });
+    $("#menubtn").text("menu");
 }
 
 $(document).ready(function() {

@@ -26,12 +26,12 @@
 </head>
 
 <loadindicator>
-    <div class="load-bar">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </div>
-  </loadindicator>
+  <div class="load-bar">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+</loadindicator>
 @if(( !(isset($_GET["viaJS"]) ? $_GET["viaJS"]=="true" : false) ))#
 <script>
 var x;
@@ -81,6 +81,7 @@ $(document).ready(function() {
         <div id="menu_links">
         <a closenav hrefnrl="" href="/">{{ ulole\core\classes\Lang::lang("menu_home") }}</a>
         <a closenav hrefnrl="" href="/about">{{ ulole\core\classes\Lang::lang("menu_about") }}</a>
+        <a closenav hrefnrl="" href="https://accounts.interaapps.de">My Account</a>
         </div>
     </div>
     <script>
@@ -89,3 +90,4 @@ $(document).ready(function() {
         });
     </script>
     @endif
+    </canvas>
