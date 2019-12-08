@@ -42,6 +42,10 @@
 
 </div>
 
+<div style="background: #105de6; color:#FFFFFF; text-align: center; padding: 16px 0px;">
+<a style="font-size: 22px">InteraApps - Dive into something new!</a>
+</div>
+
 <div class="lightsection withBackgroundImage0x2">
 
     <div class="a2elementscontainer">

@@ -48,7 +48,7 @@ $router->get("/projects/uloleframework", function() {
 });
 
 $router->get("/projects/pastefy", function() {
-  return view("github", [
+  return view("pastefy", [
     "pagetitle"=>"Pastefy",
     "github"=>"https://github.com/interaapps/pastefy"
   ]);
@@ -56,21 +56,31 @@ $router->get("/projects/pastefy", function() {
 
 $router->get("/projects/uppm", function() {
   return view("github", [
-    "pagetitle"=>"Pastefy",
+    "pagetitle"=>"UPPM",
     "github"=>"https://github.com/interaapps/uppm"
-  ]);
-});
-
-$router->get("/projects/pastefy", function() {
-  return view("github", [
-    "pagetitle"=>"Pastefy",
-    "github"=>"https://github.com/interaapps/pastefy"
   ]);
 });
 
 $router->get("/projects/website", function() {
   return view("github", [
-    "pagetitle"=>"Pastefy",
+    "pagetitle"=>"Website",
     "github"=>"https://github.com/interaapps/website"
   ]);
 });
+
+
+$router->get("/projects/quotysco", function() { return view("Quotysco", [ "pagetitle"=>"Quotysco", "github"=>"https://github.com/interaapps/quotysco" ]); });
+$router->get("/quotysco", function() { return view("Quotysco", [ "pagetitle"=>"Quotysco", "github"=>"https://github.com/interaapps/quotysco" ]); });
+
+
+$router->get("/projects/punyshort", function() {
+  return view("github", [
+    "pagetitle"=>"Punyshort",
+    "github"=>"https://github.com/interaapps/punyshort"
+  ]);
+});
+
+use ulole\core\classes\Response;
+
+$router->get("qu", function(){return Response::redirect("https://quotysco.ga");});
+
