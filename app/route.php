@@ -69,8 +69,8 @@ $router->get("/projects/website", function() {
 });
 
 
-$router->get("/projects/quotysco", function() { return view("Quotysco", [ "pagetitle"=>"Quotysco", "github"=>"https://github.com/interaapps/quotysco" ]); });
-$router->get("/quotysco", function() { return view("Quotysco", [ "pagetitle"=>"Quotysco", "github"=>"https://github.com/interaapps/quotysco" ]); });
+$router->get("/projects/quotysco", function() { return view("github", [ "pagetitle"=>"Quotysco", "github"=>"https://github.com/interaapps/quotysco" ]); });
+$router->get("/quotysco", function() { return view("github", [ "pagetitle"=>"Quotysco", "github"=>"https://github.com/interaapps/quotysco" ]); });
 
 
 $router->get("/projects/punyshort", function() {
@@ -82,5 +82,5 @@ $router->get("/projects/punyshort", function() {
 
 use ulole\core\classes\Response;
 
-$router->get("qu", function(){return Response::redirect("https://quotysco.ga");});
+$router->get("/qu", function(){return Response::redirect("https://quotysco.ga");});
 
