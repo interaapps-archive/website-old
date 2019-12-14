@@ -1,6 +1,6 @@
 <?php tmpl("header", ["title"=>"Homepage"]); ?>
 <app>
-<div style="margin-top: 70px;">
+<div style="padding-top: 70px; background: #FFFFFF;">
 
     <div class="a2elementscontainer">
         <div class="containerelement_50p" style="color: #434343; text-align: center; padding: 100px 20px;">
