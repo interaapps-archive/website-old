@@ -7,7 +7,7 @@
     <i class="material-icons">brightness_2</i>
     <h1>Darkmode</h1>
     <h3>Activate the darkmode on every device.</h3>
-    <a class="btn green" id="installbtn">Install</a>
+    <a target="_blank" href="https://play.google.com/store/apps/details?id=de.datlag.darkmode" class="btn green" id="installbtn">Install</a>
 </div>
 
 <div class="col_1200px col_container" id="showcase">
