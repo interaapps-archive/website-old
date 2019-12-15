@@ -23,7 +23,8 @@ $route = [
 
 
   "/p/impressum"    =>     "imprint.php",
-  "/p/informationen"=>     "dsgvo.php"
+  "/p/informationen"=>     "dsgvo.php",
+  "/darkmode"=>"apps/darkmode.php"
 ];
 
 $router->get("/projects/jdom", function() {
