@@ -12,15 +12,15 @@
 
 <div class="col_1200px col_container" id="showcase">
     <div class="col_300px" id="showcase-darkmode">
-        <img src="/assets/images/apps/darkmode/screenshot1.svg">
         <h2>Darkmode</h2>
         <p>Get the darkmode on every Android-device that supports it!</p>
+        <img src="/assets/images/apps/darkmode/screenshot1.svg">
     </div>
 
     <div class="col_300px" id="showcase-easy">
+        <img src="/assets/images/apps/darkmode/screenshot2.svg">
         <h2>Easy</h2>
         <p>Switch the darkmode easy by one single click!</p>
-        <img src="/assets/images/apps/darkmode/screenshot2.svg">
     </div>
 
     <div class="col_300px" id="showcase-eyes">
