@@ -19,6 +19,7 @@ $route = [
   "/about"      =>     "aboutus.php", // Executing the static about function in the AboutController class
   "/imprint"    =>     "imprint.php",
   "/dsgvo"      =>     "dsgvo.php",
+  "/donate"      =>     "donate.php",
   "@__404__@"   =>     "404.php",
 
 
